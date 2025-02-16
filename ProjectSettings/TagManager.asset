@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Coin
+  - enemy
+  - HPEnemyTag
+  - HPEnemyTag2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - hrac
+  - zaklad
+  - enemyL
+  - zzz
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: pozadie
+    uniqueID: 1915250455
+    locked: 0
+  - name: budovy1
+    uniqueID: 4224719431
+    locked: 0
+  - name: zakladna
+    uniqueID: 3971304617
+    locked: 0

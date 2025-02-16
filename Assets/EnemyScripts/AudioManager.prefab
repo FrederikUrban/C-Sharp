@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1111165143953769712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1111165143953769714}
+  - component: {fileID: 1111165143953769713}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1111165143953769714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111165143953769712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1111165143953769713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111165143953769712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1236c84ee5d2baa42a74fab5d0ec2409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerDead
+    clip: {fileID: 8300000, guid: e78d6d38b2fd86b4a956743e6ff595dc, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme
+    clip: {fileID: 8300000, guid: e32547fd6a6d6ef4abd0675360815adc, type: 3}
+    volume: 0.355
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Jump
+    clip: {fileID: 8300000, guid: 2957e0a105bd1854995371e0e17cccb8, type: 3}
+    volume: 0.672
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Swoosh
+    clip: {fileID: 8300000, guid: a8cfb2be2e8fdd4489f5e983bc12ec14, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: b4b0efbf1dde28e42bd372f93b3a2244, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: d61525a00aa1d5a449917103af22c398, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: GolemDead
+    clip: {fileID: 8300000, guid: 82d48e41fa21f9445aa42dcc536a8f71, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GolemHit
+    clip: {fileID: 8300000, guid: 74b9e24e50ab3e647901a897e4ac5461, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GolemShoot
+    clip: {fileID: 8300000, guid: 41b4554c90fa50b4894df42dccf18199, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GhostDead
+    clip: {fileID: 8300000, guid: d910c6dccce901a4ca1867e37485a1c1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GhostHit
+    clip: {fileID: 8300000, guid: 87f467e8fe954e64989bd5d977be4347, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GhostShoot
+    clip: {fileID: 8300000, guid: 628f7cff5cefbc84cb7fc8f3617a133e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
